@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,
+    #333333dc 0%,
+    #1a1a1adc) 100%,
+    url("../images/background.jpg") center no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#color__picker {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#color__display {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out;
+    border: 2px solid #ccc;
+}
+
+#color__code {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+#copy__btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: none;
+    background-color: #333;
+    color: #fff;
+    display: none;
+}
